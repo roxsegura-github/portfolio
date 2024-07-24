@@ -27,10 +27,15 @@ header {
     font-size: 30px;
     cursor: pointer;
     color: #fff;
+    margin-right: auto;
 }
 .nav {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
 nav ul {
     list-style: none;
@@ -38,7 +43,12 @@ nav ul {
     margin: 0;
     display: flex;
 }
-
+.nav li{
+    margin-right: 20px;
+}
+.nav li a {
+    color: white;
+    text-decoration: none;
 nav ul li {
     margin: 0 1rem;
 }
@@ -68,10 +78,10 @@ nav ul li a:hover {
     nav {
         display: none;
         flex-direction: column;
+        align-items: flex-start;
     }
     .menu li {
-        display: block;
-        margin-bottom: 10px;
+        margin-bottom: 10px 0;
     }
     }
 
