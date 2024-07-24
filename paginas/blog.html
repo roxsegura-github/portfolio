@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revista Digital - Artículos</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./blog.html">Reflexiones</a></li>
+                <li><a href="./recursos.html">Recursos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Página 2: Artículos -->
+        <section id="articles" class="page">
+            <h1>Reflexiones Pedagógicas</h1>
+            <div id="indice" class="indice temas">
+                <h2>Índice de Temas</h2>
+                <ul>
+                    <li><a href="#art1">Reflexiones de la Práctica Docente II</a></li>
+                    <li><a href="#art2">Herramientas Digitales</a></li>
+                    <li><a href="#art3">Aprendizaje en Linea</a></li>
+                    <li><a href="#art4">Aula Hibrida</a></li>
+                    
+                </ul>
+            </div>
+            <div class="article" id="art1">
+                <h2>Reflexiones de la Práctica Docente II</h2>
+                <p>Se centran en mejorar las prácticas educativas, reconociendo la importancia de las tecnologías de la información y comunicación(TIC), en el aprendizaje. Se busca  de este modo demostrar el compromiso con la innovación, la inclusión y la mejora continua. 
+                    Reflexiones de la Práctica Docente.
+                    </p>
+                    <a href="Reflexion de Rosana Segura.pdf"> Reflexión de Rosana Segura </a>
+                    
+                    <button onclick="scrollToTop()">Volver arriba</button>
+            </div>
+            <div class="article" id="art2">
+                <h2>Herramientas Digitales</h2>
+                <p>Resumen de Aprender y enseñar con TIC</p>
+                <a href="Aprender y enseñar con tic cesar col.pdf"> Abrir PDF</a>
+                <button onclick="scrollToTop()">Volver arriba</button>
+            </div>
+            <div class="article" id="art3">
+                <h2>Aprendizaje en Linea</h2>
+                <p>Resumen de Enseñar y aprender con TIC</p>
+                <a href="enseñar y aprender con tic.pdf"> Abrir PDF</a>
+                <button onclick="scrollToTop()">Volver arriba</button>
+            </div>
+            <div class="article" id="art4">
+                <h2>Aula Hibrida</h2>
+                <p>Resumen de Aula Híbrida.</p>
+                <a href="Aula hibrida.pdf"> Abrir PDF</a>
+                <button onclick="scrollToTop()">Volver arriba</button>
+            </div>
+           
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const nav = document.getElementById("nav");
+
+        hamburger.addEventListener("click", () => {
+            nav.classList.toggle("show");
+        });
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

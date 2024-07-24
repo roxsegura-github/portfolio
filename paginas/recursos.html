@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revista Digital - Recursos</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./blog.html">Reflexiones</a></li>
+                <li><a href="./recursos.html">Recursos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Página 3: Recursos Educativos -->
+        <section id="resources" class="page">
+          <div class="Aula">
+            <h1>Aula Virtual</h1>
+            <h2>MICROCLASE</h2>
+            <p>En el Aula Virtual de la escuela EPET N°1 Caucete, los alumnos de 3°año de secundaria podrán acceder a contenidos de Robótica y Arduino. Los temas que se incluyen con Arduino Block y el desarrollo de un robot seguidor de línea.</p>
+            <h2>Material de la Microclase</h2>
+            <a href="Cuadernillo de micro clase.pdf"> Abrir PDF</a>
+            <h2> Classroom de Rosana Segura </h2>
+           
+            <img src="clasrom QR.png" alt="QR DE LA MICRO CLASE" id="mi-imagen">
+          </div>
+
+            <h2>Muro Sonoro</h2>
+              <p> En la era digital, la integración de las tecnologías innovadoras en el ámbito educativo se ha convertido en una necesidad para enriquecer el proceso de enseñanza- aprendizaje.La Escuela EPET N°1 Caucete, se destaca por su compromiso con la incorporación de estas tecnologías que facilitan y mejoran la experiencia educativa. En este contexto, se plantea esta creación de un “Muro Sonoro”, una iniciativa que emplea la herramienta Padlet para presentar sonidos e imágenes de la institución, promoviendo un ambiente interactivo y dinámico.
+            </p>
+            
+                <h2> Ingresa al Enlace </h2>
+                <a href="https://padlet.com/roseguragalvan85/muro-sonoro-escuea-epet-1-caucete-14r5ae3kipjlfz2b" target="_blank" class="padlet_link"> Visita nuestro Padlet </a>
+                
+            
+            <button onclick="scrollToTop()">Volver arriba</button>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const nav = document.getElementById("nav");
+
+        hamburger.addEventListener("click", () => {
+            nav.classList.toggle("show");
+        });
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
