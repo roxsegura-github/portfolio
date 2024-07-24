@@ -24,10 +24,14 @@ header {
 
 .menu-toggle {
     display: none;
+    font-size: 30px;
     cursor: pointer;
     color: #fff;
 }
-
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
 nav ul {
     list-style: none;
     padding: 0;
@@ -63,6 +67,12 @@ nav ul li a:hover {
 
     nav {
         display: none;
+        flex-direction: column;
+    }
+    .menu li {
+        display: block;
+        margin-bottom: 10px;
+    }
     }
 
     nav.show {
