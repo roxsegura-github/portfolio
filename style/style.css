@@ -36,6 +36,7 @@ header {
     display: flex;
    align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 nav ul {
     list-style: none;
@@ -66,8 +67,8 @@ nav ul li a:hover {
 }
 
 .logo img {
-    width: 30px; /* Ajusta el tamaño del logo según sea necesario */
-    height: auto;
+    width: auto; /* Ajusta el tamaño del logo según sea necesario */
+    height: 40px;
     margin-left: 1rem;
     
 }
@@ -97,6 +98,7 @@ nav ul li a:hover {
         padding: 15px 20px;
         border-bottom: 1px solid #444;
     }
+
     }
 
     nav.show {
