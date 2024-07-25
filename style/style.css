@@ -24,10 +24,10 @@ header {
 
 .menu-toggle {
     display: none;
-    font-size: 30px;
+    font-size: 24px;
     cursor: pointer;
     color: #fff;
-    margin-right: auto;
+    
 }
 .nav {
     list-style-type: none;
@@ -36,7 +36,7 @@ header {
     display: flex;
    align-items: center;
     justify-content: space-between;
-    position: relative;
+    
 }
 nav ul {
     list-style: none;
@@ -50,10 +50,10 @@ nav ul {
 .nav li a {
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     transition: background-color 0.3s;
 nav ul li {
-    margin: 0 1rem;
+    
 }
 
 nav ul li a {
@@ -68,7 +68,7 @@ nav ul li a:hover {
 
 .logo img {
     width: auto; /* Ajusta el tamaño del logo según sea necesario */
-    height: 30px;
+    height: 24px;
    
     
 }
@@ -104,7 +104,7 @@ nav ul li a:hover {
         top: 10px;
     }
     .logo img {
-        height: 25px;
+        height: 20px;
         width: auto;
     }
     }
