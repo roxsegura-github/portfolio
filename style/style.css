@@ -69,7 +69,7 @@ nav ul li a:hover {
 .logo img {
     width: auto; /* Ajusta el tamaño del logo según sea necesario */
     height: 40px;
-    margin-left: 1rem;
+   
     
 }
 
@@ -98,7 +98,11 @@ nav ul li a:hover {
         padding: 15px 20px;
         border-bottom: 1px solid #444;
     }
-
+    .logo {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
     }
 
     nav.show {
@@ -120,10 +124,7 @@ nav ul li a:hover {
     }
 
     .logo {
-        display: block; /* Ocultar el logo en pantallas pequeñas si es necesario */
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
+        margin-left: auto;
     }
 }
 
