@@ -31,11 +31,11 @@ header {
 }
 .nav {
     list-style-type: none;
-    padding: 0;
+    padding: 10px 20px;
     margin: 0;
     display: flex;
-    flex-grow: 1;
-    justify-content: flex-end;
+   align-items: center;
+    justify-content: space-between;
 }
 nav ul {
     list-style: none;
@@ -49,6 +49,8 @@ nav ul {
 .nav li a {
     color: white;
     text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
 nav ul li {
     margin: 0 1rem;
 }
@@ -78,10 +80,22 @@ nav ul li a:hover {
     nav {
         display: none;
         flex-direction: column;
-        align-items: flex-start;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        padding: 0;
+        background-color: white;   
     }
     .menu li {
-        margin-bottom: 10px 0;
+       width: 100%;
+    }
+    .menu li a { 
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 15px 20px;
+        border-bottom: 1px solid #444;
     }
     }
 
